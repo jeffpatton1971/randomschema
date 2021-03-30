@@ -1,0 +1,27 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$id": "https:///definedresource.json",
+	"type": "object",
+	"title": "definedresource Schema",
+	"properties": {
+		"type": "object",
+		"required": ["prop1", "prop2", "prop3"],
+		"properties": {
+			"prop1": {
+				"type": "string",
+				"default": ""
+			},
+			"prop2": {
+				"type": "boolean"
+			},
+			"prop3": {
+				"type": "string",
+				"default": ""
+			},
+			"prop4": {
+				"type": "string",
+				"default": ""
+			}
+		}
+	}
+}

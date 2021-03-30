@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$id": "https:///definedresource.json",
+	"$id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/definedresource.json",
 	"type": "object",
 	"title": "definedresource Schema",
 	"properties": {

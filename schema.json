@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "https://www.company.com/schema.json#",
+  "type": "object",
+  "title": "Resources",
+  "Resources": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "anyOf": [
+        {
+          "CloudDns": {
+            "type": "array",
+            "items": {
+              "$ref": "https://www.company.com/DefinedResource.json"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

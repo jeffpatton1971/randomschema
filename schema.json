@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "$id": "https://www.company.com/schema.json#",
+  "$id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/schema.json#",
   "type": "object",
   "title": "Resources",
   "Resources": {
@@ -9,10 +9,10 @@
     "properties": {
       "anyOf": [
         {
-          "CloudDns": {
+          "definedresource": {
             "type": "array",
             "items": {
-              "$ref": "https://www.company.com/DefinedResource.json"
+              "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/definedresource.json"
             }
           }
         }

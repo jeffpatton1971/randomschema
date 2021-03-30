@@ -3,25 +3,22 @@
 	"$id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/definedresource.json",
 	"type": "object",
 	"title": "definedresource Schema",
+	"required": ["prop1", "prop2", "prop3"],
 	"properties": {
-		"type": "object",
-		"required": ["prop1", "prop2", "prop3"],
-		"properties": {
-			"prop1": {
-				"type": "string",
-				"default": ""
-			},
-			"prop2": {
-				"type": "boolean"
-			},
-			"prop3": {
-				"type": "string",
-				"default": ""
-			},
-			"prop4": {
-				"type": "string",
-				"default": ""
-			}
+		"prop1": {
+			"type": "string",
+			"default": ""
+		},
+		"prop2": {
+			"type": "boolean"
+		},
+		"prop3": {
+			"type": "string",
+			"default": ""
+		},
+		"prop4": {
+			"type": "string",
+			"default": ""
 		}
 	}
 }

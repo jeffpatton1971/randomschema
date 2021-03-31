@@ -19,7 +19,7 @@
     "color":     { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/defs.json#color" },
     "pages":     {
       "type": "array",
-      "items": { "$ref": "page.json#" }
+      "items": { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/page.json#" }
     }
   }
 }

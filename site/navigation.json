@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/navigation.json#",
+  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/navigation.json#",
   "title": "Navigation",
   "definitions": {
     "positiveIntOrNull": {

@@ -6,11 +6,11 @@
   "additionalProperties": false,
   "required": [ "page_id", "short_name", "display_name", "path" ],
   "properties": {
-    "page_id":      { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/defs.json#positiveInteger" },
+    "page_id":      { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/defs.json#positiveInteger" },
     "short_name":   { "type": "string", "pattern": "^[a-z_]+$" },
     "display_name": { "type": "string", "minLength": 1 },
     "path":         { "type": "string", "pattern": "^(?:/[a-z_\\-]+)+$" },
-    "color":        { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/defs.json#color" },
+    "color":        { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/defs.json#color" },
     "navigation":   { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/navigation.json#" }
   },
   "switch": [{

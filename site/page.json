@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/page.json#",
+  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/page.json#",
   "title": "Page",
   "type": "object",
   "additionalProperties": false,

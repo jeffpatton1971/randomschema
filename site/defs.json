@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/defs.json#",
+  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/defs.json#",
   "title": "Definitions",  
   "definitions": {
     "positiveInteger": { "id": "#positiveInteger", "type": "integer", "minimum": 1 },

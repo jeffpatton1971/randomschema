@@ -13,10 +13,10 @@
   "additionalProperties": false,
   "required": [ "level", "parent_id", "color", "pages" ],
   "properties": {
-    "level":     { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/defs.json#positiveInteger" },
+    "level":     { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/defs.json#positiveInteger" },
     "parent_id": { "$ref": "#positiveIntOrNull" },
     "visitors":  { "enum": [ "all", "subscribers", "age18" ] },
-    "color":     { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/site/main/defs.json#color" },
+    "color":     { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/site/defs.json#color" },
     "pages":     {
       "type": "array",
       "items": { "$ref": "page.json#" }

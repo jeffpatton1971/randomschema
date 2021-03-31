@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/resources/resources.json#",
+  "title": "Resources",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "definedResources":     {
+      "type": "array",
+      "items": { "$ref": "https://raw.githubusercontent.com/jeffpatton1971/randomschema/main/resources/definedResource.json#" }
+    }
+  }
+}
